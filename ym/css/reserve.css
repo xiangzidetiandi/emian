@@ -1,0 +1,412 @@
+.content-wrapper p{
+	font-size: 1em;
+}
+.content-wrapper .reserve-small-logo{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	min-height: 100px;
+	background-color: #ccc;
+}
+
+.content-wrapper .reserve-small-logo span{
+	position: absolute;
+	z-index: 2;
+}
+
+.content-wrapper .reserve-small-logo .left-bottom-logo{
+	left: 10px;
+	bottom: 5px;
+	width: 30px;
+	height: 20px;
+	background: url('../images/left-bottom-logo.png')  no-repeat;
+	background-size: contain;
+}
+.content-wrapper .reserve-small-logo .favor{
+	right: 90px;
+	bottom: 5px;
+	width: 20px;
+	height: 15px;
+	background: url('../images/favor.png')  no-repeat;
+	background-size: contain;
+}
+.content-wrapper .reserve-small-logo .favor-count{
+	right: 10px;
+	bottom: 5px;
+	width: 78px;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+
+.content-wrapper .reserve-small-logo .current-time-bg{
+	right: 10px;
+	top: 0px;
+	width: 110px;
+	height: 50px;
+	background: url('../images/current-time.png')  no-repeat;
+	background-size: contain;
+}
+.content-wrapper .reserve-small-logo .current-time{
+	right: 20px;
+	top: 8px;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.content-wrapper .company-info .company-name{
+	padding: 8px 0;
+	text-align: center;
+	background-color: #292929;
+	color: #fff;
+	font-size: 1.8em;
+  	font-weight: 200;
+}
+.content-wrapper .company-info .to-company ul{
+	margin: 15px 0;
+	padding: 0 15px;
+}
+
+.content-wrapper .company-info .to-company ul li{
+	position: relative;
+	font-size: 1.4em;
+	line-height: 1.6em;
+}
+
+.content-wrapper .company-info .to-company ul li em{
+	position: absolute;
+	top: 3px;
+	left: 0;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+.content-wrapper .company-info .to-company ul li p{
+	display: inline-block;
+	width: 90%;
+	margin: 0 0 0 20px;
+}
+
+.content-wrapper .company-info .to-company ul li:nth-child(1) em{
+	background: url('../images/address-small.png')  no-repeat;
+	background-size: 12px 15px;
+
+}
+
+
+.content-wrapper .company-info .to-company ul li:nth-child(2) em{
+	background: url('../images/metro-small.png') no-repeat;
+	background-size: 12px 12px;
+}
+
+
+.content-wrapper .company-info .to-company ul li:nth-child(3) em{
+	background: url('../images/bus-small.png') no-repeat;
+	background-size: 12px 12px;
+}
+
+.tab .tab-header ul li{
+	width: 50%;
+}
+
+.tab .tab-header ul li em{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+
+.tab .tab-header ul li:nth-child(1) em{
+	background: url('../images/credit.png')  no-repeat;
+	background-size: 15px 15px;
+
+}
+
+
+.tab .tab-header ul li:nth-child(2) em{
+	background: url('../images/detail.png') no-repeat;
+	background-size: 15px 15px;
+}
+
+
+.tab .tab-header ul li:nth-child(3){
+	display: none;
+}
+
+.tab .tab-header ul li.yd{
+	width: 33.33%;
+	display: inline-block;
+}
+
+.tab .tab-header ul li:nth-child(3) em{
+	background: url('../images/reserve.png') no-repeat;
+	background-size: 15px 15px;
+}
+
+
+.tab-content .interview {
+	background-color: #eeeeee;
+}
+.tab-content .interview .date-time{
+	width:100%;
+	padding: 20px 0;
+}
+
+
+.tab-content .interview .date-time ul li{
+	width: 100%;
+	font-size: 1.4em;
+	overflow: hidden;
+}
+
+.tab-content .interview .date-time ul li:first-child{
+	width: 100%;
+	font-size: 1.4em;
+	overflow: hidden;
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+}
+.tab-content .interview .date-time ul li:first-child span em{
+	display: block;
+	width: 100%;
+	height:28px;
+	line-height: 28px;
+	font-style: normal;
+	text-align: left;
+	padding-left: 15px;
+}
+.tab-content .interview .date-time ul li:first-child span em:last-child{
+	padding-left: 18px;
+}
+
+
+.tab-content .interview .date-time ul li span{ 
+	display: inline-block;
+	float: left;
+	width: 16%;
+	text-align: center;
+	height: 56px;
+	line-height: 56px;
+}
+
+.tab-content .interview .date-time ul li span.time-block{ 
+	background-image: url('../images/no-select-block.png');
+	background-position: 0 8px;
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+}
+.tab-content .interview .date-time ul li span.time-block-select{ 
+	background-image: url('../images/select-block.jpg');
+	background-position: 0 8px;
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+}
+
+.tab-content .credit{
+	padding: 0 15px;
+	border-top: solid 1px #bbbbbb;
+	margin-top: 15px;
+	background-color: #fff;
+	font-size: 1.1em;
+	color: #666666;
+}
+
+.tab-content .credit .row{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.tab-content .credit ul.evaluate-collect-block{
+	position: relative;
+}
+
+.tab-content .credit ul.evaluate-collect-block div.all-users-comment-btn {
+	color:#008cdd;
+	float: right;
+	margin-top: 6px;
+ 	padding-right: 16px;
+ 	background: url('../images/chat-up.png') no-repeat;
+ 	background-size: 12px 6px;
+ 	background-position: bottom 4px right 0px;
+}
+
+
+
+.tab-content .credit ul.evaluate-collect-block li{
+	display: inline-block;
+	padding: 5px;
+	border: solid 1px #eee;
+	border-radius: 3px;
+	margin: 0 5px 5px 0;
+	color: #999999;
+}
+
+.tab-content .credit ul.evaluate-collect-block li.best{
+	color: #f39700;
+	border-color: #f39700;
+}
+
+
+
+.tab-content .credit ul.evaluate-collect-block li em{
+	font-style: normal;
+}
+
+.tab-content .credit ul.evaluate-collect-block li em:last-child{
+	margin-left: 8px;
+}
+
+
+.tab-content .credit .company-to-resume{
+	border-top: solid 1px #bbbbbb;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 0 15px;
+}
+
+.tab-content .credit .company-to-resume span:first-child{
+	float: left;
+}
+.tab-content .credit .company-to-resume span:last-child{
+	float: right;
+}
+
+.tab-content .credit .company-to-resume em{
+	font-style: normal;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.tab-content .credit ul.comment-list li {
+	border-top: solid 1px #bbbbbb;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 0 15px;	
+}
+
+.tab-content .credit ul.comment-list li div{
+	padding: 5px 0;
+}
+
+.tab-content .credit ul.comment-list li div.comment-condition span:last-child{
+	margin-left: 10px;
+}
+
+
+.tab-content .credit ul.comment-list li div.comment-pics img{
+	display: inline-block;
+	width: 90px;
+	height: 60px;
+	margin: 0 5px 5px 0;
+	/*border: solid 1px #000;*/
+}
+.tab-content .credit .evaluate-content .title .right em.star, .tab-content .credit .evaluate-content .comment-list li .comment-condition span em.star{
+	display: inline-block;
+	width:15px;
+	height:15px;
+	background-image: url(../images/wuxing.png);
+	background-size: contain;
+}
+
+.tab-content .credit .evaluate-content .title .right em.star.dark, .tab-content .credit .evaluate-content .comment-list li .comment-condition span em.star.dark{
+	display: inline-block;
+	width:15px;
+	height:15px;
+	background-image: url(../images/wuxing.png);
+	background-size: contain;
+}
+
+.tab-content .credit .evaluate-content .title .right em.score{
+	font-size: 1.4em;
+}
+
+.tab-content .detail{
+	padding: 15px 15px;
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #000;
+	background-color: #fff;
+}
+
+.tab-content .detail .coat,.coat-2{
+	width: 100%;
+	min-height : 200px;
+	background-color: #ccc;
+}
+
+.tab-content .detail .company-info,.performance{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.tab-content .detail .company-info span,.performance span{
+	width: 50%;
+	height: 20px;
+	font-size: 1.1em;
+}
+
+.tab-content .detail .coat-2{
+	margin-top: 76px;
+}
+
+.tab-content .detail .performance span:nth-child(3){
+	width: 100%;
+}
+
+.tab-content .detail .coat-3{
+	margin-top: 50px;
+	width: 100%;
+	min-height : 150px;
+}
+
+.tab-content .detail .coat-3 span{
+	width: 49%;
+	min-height : 150px;
+	background-color: #ccc;
+}
+.tab-content .detail .coat-3 span:nth-child(2){
+	margin-left: 2%;
+}
+
+.tab-content .detail .welfare{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.tab-content .detail .job-respons,.take-office,.position-adv{
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.position-adv span{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.tab-content .detail .job-respons ul li,.take-office ul li,.position-adv ul li{
+	height: 20px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.tab-content .detail .position-adv{
+	padding-top: 8px; 
+	height: 90px;
+	background-color: #f39800;
+}
+
+.tab-content .detail .btn{
+	width: 100%;
+	height: 65px;
+	line-height: 65px;
+}
+
+.tab-content .detail .btn span:nth-child(1){
+	margin-left: 16px;
+}
+
+

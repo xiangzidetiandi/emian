@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+    background: #f6f6f6;
+    color: #3f484f;
+    font-family: "Hiragino Sans GB W3";
+  }
+ul, li, body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+section {
+  width: 100%;
+  padding: 0 15px;
+  margin: 20px 0; 
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+    z-index: 10000;
+    background-color: #222222;
+    color: #F0F0F0;
+}
+header h1 {
+    margin: 0;
+    padding: 0;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+}
+header a {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    font-size: 13pt;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px 0px 5px;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+header a span{
+    display: inline-block;
+    font-size: 14pt;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px 0px 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+header a.back {
+    width: 80px;
+    background: url(../images/back.png) no-repeat;
+    background-size: contain;
+    left: 15px;
+}
+header a.left {
+    left: 10px;
+}
+header a.option{
+    width: 20px;
+    margin-top: 6px;
+    background: url(../images/options.png) no-repeat;
+    background-size: contain;
+    right: 15px;
+}
+
+button {
+    width: 100%;
+    background-color: #008cdc;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    font-size: 1.6em;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type="text"],input[type="password"]{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: solid 1px #eee;
+}
+
+em{
+    font-style: normal;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* WebKit browsers */
+::-webkit-input-placeholder {
+    color: #AEAEAE;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+    color: #AEAEAE;
+    opacity: 1;
+}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+    color: #AEAEAE;
+    opacity: 1;
+}
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+    color: #AEAEAE;
+}
+.content-wrapper {
+    position: relative;
+    top: 44px;
+    z-index: 0;
+    max-width: 660px;
+    margin: 0 auto;
+}
+.tab .tab-header {} .tab .tab-header ul {
+    word-spacing: -3.5px;
+}
+.tab .tab-header ul li {
+    position: relative;
+    display: inline-block;
+    background-color: #666666;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.4em;
+    border-left: solid 1px #333;
+
+}
+.tab .tab-header ul li.curr {
+  background-color: #333;
+}
+.tab .tab-header ul li.curr:after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent;
+    line-height: 1;
+    display: inline-block;
+    left: 50%;
+    bottom: -9px;
+}
+
+.re-container{
+    width: 100%;
+    position: relative;
+    padding: 5px 0;
+    font-size: 1.3em;
+}
+
+/*list-item 样式*/
+.list-item{
+    position: relative;
+    padding: 10px 0;
+    font-size: 1em;
+    height: 40px;
+    border-bottom: solid 1px #d8d8d8;
+}
+.list-item .block{
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+
+.list-item .right-pic{
+    right: 0;
+    top: 10px;
+    width: 10px;
+}
+
+.list-item .right-font{
+    right: 15px;
+    top: 10px;
+    color: #AEAEAE;
+}
+.list-item .left-font{
+    left: 0;
+    top: 10px;
+}
+.list-item .left-pic{
+    left: 0;
+    top: 10px;
+}
+.content-wrapper p{
+    font-size: 1.3em;
+    color: #9f9f9f;
+}
+
+.alert-window{
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(64, 64, 66, 0.7);;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.control-button-two{
+    width: 100%;
+    border: 1px solid #008cdd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.control-button-two a{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    font-size: 1.4em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+   
+}
+
+.control-button-two .turn{
+    color: #008cdd;
+}
+
+.control-button-two .turn:before{
+    content: "";
+    display: inline-block;
+    width:30px;
+    height: 23px;
+    background: url("../images/turn.png") no-repeat;
+    background-size: 24px 23px;
+}
+
+.control-button-two a.selected{
+    background-color: #008cdd;
+    color: #fff;
+}
+
+.control-button-two a:last-child{
+    border-left:solid 1px #008cdd;
+}
+

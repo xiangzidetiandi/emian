@@ -1,0 +1,122 @@
+.address-title{
+	background-color: #eeeeee;
+	border-bottom: solid 1px #e3e3e7;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px 0;
+}
+.address-title .address-name{
+	
+}
+.address-title .edit{
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	background: url(../images/write.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 10px;
+}
+.user-address{
+	padding: 0 15px;
+	margin-top: 20px;
+	background-color: #FFF;
+	border-top: solid 1px #e3e3e7;
+	border-bottom: solid 1px #e3e3e7;
+}
+
+.user-address .user-address-input{
+	border: none;
+	text-align: right;
+}
+
+.history-address{
+	padding: 0 15px;
+	margin-top: 20px;
+	background-color: #FFF;
+	border-top: solid 1px #e3e3e7;
+	border-bottom: solid 1px #e3e3e7;
+}
+
+.list-item .left-pic{
+	background: url(../images/address_1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 17px;
+
+}
+div.list-item.pic-btn-item{
+	text-align: center;
+}
+.list-item .pic-btn{
+	display: inline-block;
+	background: url(../images/house.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+	margin-top: -3px;
+}
+.history-address .list-item .right-font{
+	background-color: #ddd;
+	right: 20px;
+	padding: 0 8px;
+	color: #777;
+	border-radius: 2px;
+	font-size: .9em;
+}
+.history-address .list-item .left-font{
+	left: 20px;
+	padding: 0 5px;
+}
+
+.history-address .list-item .left-pic{
+	left: 0px;
+}
+.list-item .right-pic{
+	background-image: url(../images/go-right.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.alert-window .county-options{
+	width: 280px;
+	height: 50%;
+	margin: 0 auto;
+	margin-top: 40%;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 0 8px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.alert-window .county-options div{
+	padding: 14px 0 14px 6px;
+	font-size: 1.4em;
+	border-bottom: solid 1px #D2D2D2;
+}
+
+.alert-window .choose{
+	color:#87CEFA;
+}
+
+
+.address-options{
+	width: 100%;
+	height: 40%;
+	margin: 0 auto;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 0 8px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.address-options div{
+	padding: 14px 0;
+	font-size: 1.3em;
+	border-bottom: solid 1px #D2D2D2;
+}

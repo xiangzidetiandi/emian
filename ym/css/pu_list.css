@@ -1,0 +1,242 @@
+.re-container{
+	padding: 0;
+}
+.list{
+	padding: 10px 10px 0 10px;
+}
+
+.list .item{
+	/*width: 10*/
+	border: solid 1px #999;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.list .item p{
+	margin: 5px 0 0 0;
+	padding: 0 10px;
+	font-size: 1em;
+	color:#3f484f;
+	line-height: 20px;
+}
+
+.content-wrapper > p{
+	margin: 0;
+	padding: 10px;
+	background-color: #eee;
+	word-spacing:8px; 
+	letter-spacing: 1px;
+}
+.content-wrapper > p:after{
+	content: "";
+	display: inline-block;
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/place.png')  no-repeat;
+	background-size: contain;
+
+}
+
+.content-wrapper .pic-info{
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	min-height: 100px;
+	font-size: .9em;
+	background-color: #ccc;
+	height: 130px;
+	overflow: hidden;
+}
+
+.content-wrapper .pic-info span{
+	position: absolute;
+	z-index: 2;
+}
+
+.content-wrapper .pic-info img{
+	width: 100%;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content-wrapper .pic-info .favor{
+	right: 60px;
+	bottom: 5px;
+	width: 20px;
+	height: 15px;
+	background: url('../images/favor.png')  no-repeat;
+	background-size: contain;
+}
+.content-wrapper .pic-info .favor-count{
+	right: 10px;
+	bottom: 5px;
+	width: 50px;
+	color: #fff;
+}
+
+
+.content-wrapper .pic-info .current-time-bg{
+	right: 10px;
+	top: 0px;
+	width: 110px;
+	height: 50px;
+	background: url('../images/current-time.png')  no-repeat;
+	background-size: contain;
+}
+.content-wrapper .pic-info .current-time{
+	right: 20px;
+	top: 8px;
+	color: #fff;
+}
+
+.address-info{
+	padding: 6px 10px 5px 10px;
+	overflow: hidden;
+	font-size: .8em
+}
+.address-info span:nth-child(1){
+	position: relative;
+	padding-left: 15px;
+	width: 75%;
+}
+
+.address-info span{
+	position: relative;
+	padding-left: 13px;
+}
+
+.address-info span:before{
+	position: absolute;
+	left: 0;
+	top: 2px;
+	content:"";
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+}
+
+.address-info .address:before{
+	background: url('../images/address-small.png')  no-repeat;
+	background-size: 13px 13px;
+	background-size: contain;
+}
+.address-info .bus-time:before{
+	
+	background: url('../images/bus-small.png') no-repeat;
+	background-size: 13px 13px;
+	background-size: contain;
+
+}
+
+.content-wrapper .introduction{
+	position: absolute;
+	z-index: 99;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.78);
+}
+
+.content-wrapper .introduction div{
+	position: absolute;
+	z-index: 100;
+	width: 50px;
+	height: 50px;
+
+}
+
+.content-wrapper .introduction div.intro-1{
+	padding: 40px 0 0 30px;
+	top: 30px;
+	right: 14px;
+	width: 250px;
+	height: 146px;
+	background: url('../images/pic_.png') no-repeat;
+	font-size: 1.4em;
+	color:#818181;
+}
+
+.content-wrapper .introduction div.intro-1 em {
+	margin: 0px 5px 2px 0;
+	float: left;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/from-house.png) no-repeat;
+	background-size: contain;
+	/*top:40px;*/
+	/*left:40px;*/
+}
+
+.content-wrapper .introduction div.intro-1 span{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: -20px;
+    width: 150px;
+	float: left;
+}
+
+.content-wrapper .introduction div.intro-2{
+	top: 256px;
+	right: 20px;
+	width: 250px;
+	height: 146px;
+	background: url('../images/pic_.png') no-repeat;
+	font-size: 1.4em;
+	color:#818181;
+}
+
+.content-wrapper .introduction div.intro-2 em {
+	margin: 44px 5px 2px 36px;
+	float: left;
+	display: inline-block;
+	width: 17px;
+	height: 21px;
+	background: url(../images/traffic-tool.png) no-repeat;
+	background-size: contain;
+}
+
+.content-wrapper .introduction div.intro-2 span{
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: -20px;
+	width: 160px;
+	float: left;
+}
+.content-wrapper .introduction div.intro-3{
+	top: 530px;
+	right: 20px;
+	width: 250px;
+	height: 146px;
+	background: url('../images/pic_.png') no-repeat;
+	font-size: 1.4em;
+	color:#818181;
+}
+
+.content-wrapper .introduction div.intro-3 em {
+	margin: 40px 5px 2px 30px;
+	float: left;
+	display: inline-block;
+	width: 29px;
+	height: 25px;
+	background: url(../images/reserver-time.png) no-repeat;
+	background-size: contain;
+}
+
+.content-wrapper .introduction div.intro-3 span{
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: -20px;
+	width: 160px;
+	float: left;
+}
+
+.content-wrapper .introduction div.intro-4{
+	top: 650px;
+	right: 80px;
+	width: 300px;
+	height: 100px;
+	background: url('../images/builed.png') no-repeat;
+	background-size: 300px 100px;
+}

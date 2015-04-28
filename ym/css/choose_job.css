@@ -1,0 +1,61 @@
+body{
+	background-color: #fff;
+}
+
+.job-title{
+	background-color: #f7f7f7;
+	border-bottom: solid 1px #999;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px 0;
+}
+
+.job-title .edit{
+	float: right;
+	margin-right: 8px;
+}
+
+.user-job,.user-type,.user-obj{
+	display: inline-block;
+}
+
+.clear{
+	clear: both;
+}
+.user-job span,.user-type span,.user-obj span{
+	display: inline-block;
+	padding: 10px 0 4px 4px;
+	font-weight: bolder;
+}
+
+.user-job .list-job,.user-type .list-job,.user-obj .list-job{
+	border-top: solid 1px #ccc;
+	padding-left: 4px;
+}
+
+.user-job .list-job li,.user-type .list-job li,.user-obj .list-job li{
+	float: left;
+	margin: 6px 4px 4px 5px;
+	width: 30%;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: solid 1px #666; 
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.user-job .list-job li.selector-job,.user-type .list-job li.selector-job,.user-obj .list-job li.selector-job{
+	border: solid 1px #008cdd;
+}
+
+.list-job .selector-job{
+	display: inline-block;
+	background: url('../images/selector-job.png') no-repeat;
+	background-size: 16px 16px;
+	background-position: right 0px bottom 0px;
+}
+
+
+
+

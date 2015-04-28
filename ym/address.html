@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black&quot;">
+        <meta content="telephone=no" name="format-detection">
+        <title>我的地址</title>
+        <link rel="stylesheet" href="./css/global.css"/>
+        <link rel="stylesheet" href="./css/address.css"/>
+    </head>
+    <body>
+        <header>
+            <a href="" class="back"><span>返回</span></a>
+            <h1 class="">易 面</h1>
+            <a href="" class="option"></a>
+        </header>
+        <div class="content-wrapper">
+            <div class="re-container address-title">
+                <span class="address-name">我的地址</span>
+                <span class="edit"></span>
+            </div>
+            <div class="re-container user-address">
+                <div class="list-item">
+                    <span class="block left-font">我住在北京</span>
+                    <span id="choose-country" class="block right-font">选择区县</span>
+                    <span class="block right-pic"></span>
+                </div>
+                <input type="text" name="user-address-input" id="user-address-input" class="user-address-input" placeholder="请输入小区名称或公交车站名称"/>
+            </div>
+            
+            <div class="address-options" style="display:none;">
+                <div class="option">东城区</div>
+                <div class="option">西城区</div>
+                <div class="option">朝阳区</div>
+            </div>
+
+            <p>历史足迹</p>
+            <div class="re-container history-address">
+                <div class="list-item">
+                    <span class="block left-pic"></span>
+                    <span class="block left-font">我住在北京</span>
+                    <span class="block right-font">切 换</span>
+                </div>
+                <div class="list-item">
+                    <span class="block left-pic"></span>
+                    <span class="block left-font">我住在北京</span>
+                    <span class="block right-font">切 换</span>
+                </div>
+                <div class="list-item">
+                    <span class="block left-pic"></span>
+                    <span class="block left-font">我住在北京</span>
+                    <span class="block right-font">切 换</span>
+                </div>
+                <div class="list-item">
+                    <span class="block left-pic"></span>
+                    <span class="block left-font">我住在北京</span>
+                    <span class="block right-font">切 换</span>
+                </div>
+                <div class="list-item pic-btn-item">
+                    <span class="pic-btn"></span>
+                </div>
+
+            </div>
+            <section>
+                <button>确 定</button>
+            </section>
+        </div>
+
+        <div class="alert-window" style="display:none;">
+            <div class="county-options">
+                <div class="option">东城区</div>
+                <div class="option">西城区</div>
+                <div class="option">朝阳区</div>
+                <div class="option">海淀区</div>
+                <div class="option">丰台区</div>
+                <div class="option">石景山区</div>
+                <div class="option">门头沟区</div>
+                <div class="option">房山区</div>
+                <div class="option">大兴区</div>
+                <div class="option">昌平区</div>
+                <div class="option">顺义区</div>
+                <div class="option">怀柔区</div>
+                <div class="option">密云区</div>
+                <div class="option">平谷区</div>
+
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="./js/address.js"></script>
+</html>
